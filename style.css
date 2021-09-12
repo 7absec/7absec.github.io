@@ -680,25 +680,17 @@ footer span a:hover{
     }
 }
 
+
 .social{
     color: #111;
     text-align: center;
     font-size: 40px;
 }
-
-
 .social a:link {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.social a:visited {
   color: black;
   background-color: transparent;
   text-decoration: none;
 }
-
 .social a:hover {
   color:crimson;
   background-color: transparent;
