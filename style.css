@@ -700,7 +700,7 @@ footer span a:hover{
 }
 
 .social a:hover {
-  color: red;
+  color: crimson;
   background-color: transparent;
   text-decoration: underline;
 }
