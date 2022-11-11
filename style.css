@@ -305,20 +305,70 @@ section .title::after{
 
 /* skills section styling */
 
+
+
+
 .skills .title::after{
     content: "what i know";
 }
-.skills .skills-content .column{
+/* .skills .skills-content .column{
     width: calc(50% - 30px);
-}
-.skills .skills-content .left .text{
+} */
+/* .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+} */
+
+.skills .skills-content-1{
+    display: inline-flex;
+    text-align: center;
+
 }
+.skills .skills-content-1 .svg img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.skills .skills-content-1 .svg:hover img{
+    border-color: #fff;
+    background-color: crimson;
+}
+
+.skills .skills-content-2{
+    display: flex;
+    text-align: center;
+}
+.skills .skills-content-2 .svg img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.skills .skills-content-2 .svg:hover img{
+    border-color: #fff;
+    background-color: crimson;
+}
+
+.skills .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*
 .skills .skills-content .left p{
     text-align: justify;
 }
+
 .skills .skills-content .left a{
     display: inline-block;
     background: crimson;
@@ -378,9 +428,10 @@ section .title::after{
     width: 60%;
 }
 
-/* blog section styling */
+*/
+/* Project section styling */
 .teams .title::after{
-    content: "Comming soon...";
+    content: "My Projects...";
 }
 .teams .carousel .card{
     background: #222;
@@ -440,6 +491,14 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
+}
+
+.teams a{
+    text-decoration: none;
+    color: crimson;
+}
+.teams a:hover{
+    color: white;
 }
 
 /* contact section styling */
