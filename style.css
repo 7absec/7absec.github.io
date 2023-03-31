@@ -302,6 +302,11 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+.services .serv-content .card a{
+    text-decoration: none;
+    color: white;
+}
 /* 
 /* Project section styling */
 .teams .title::after{
@@ -488,6 +493,16 @@ footer span a:hover{
 
 /* responsive media query start */
 @media (max-width: 1104px) {
+    .home{
+        display: flex;
+        background: url("images/ad_bg.jpg") no-repeat center;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .about .about-content .left img{
         height: 460px;
         width: 340px;
