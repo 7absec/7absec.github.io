@@ -9,8 +9,12 @@ name: Aftab Harun
 description: Security Researcher from India
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
+<<<<<<< HEAD
 avatar: 7absec.github.io/images/profile.jpeg
 
+=======
+avatar: https://7absec.github.io/images/profile.jpeg
+>>>>>>> 1de75790f8da1941c49eccdd00abcfd92f3810d2
 #
 # Flags below are optional
 #
